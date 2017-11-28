@@ -1,0 +1,225 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+  height:100%;
+  font-size:16px;
+  background-image: url("../images/pastel_red_bamboo_wallpaper_tileable.jpg");
+}
+
+/*
+hsl(204, 52%, 58%); easy light blue
+hsl(205, 31%, 46%); easy dark blue
+hsl(172, 100%, 64%); teal
+hsl(0, 100%, 96.8%); content background
+hsl(10, 100%, 80%); richer light red
+hsl(1, 50%, 20%); richer dark red
+hsl(0, 100%, 20%); outlines
+hsl(1, 50%, 60%); easy dark red
+*/
+
+.flex{
+  display:flex;
+}
+
+.flex-center{
+  display:flex;
+  justify-content:center;
+}
+
+.flex-column-center{
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+}
+
+.width20{
+  width:20%;
+}
+
+.width30{
+  width:30%;
+}
+
+.width40{
+  width:40%;
+}
+
+.width60{
+  width:60%;
+}
+
+.width70{
+  width:70%;
+}
+
+.width80{
+  width:80%;
+}
+
+.width100{
+  width:100%;
+}
+
+/*============
+HEADER SECTION
+============*/
+
+header{
+  height:6rem;
+  z-index:100;
+  justify-content: center;
+  background-color: hsl(1, 50%, 20%);
+  border-bottom: 4px solid hsl(10, 100%, 80%);
+  /*border:2px solid red;*/
+}
+
+.header-container{
+  justify-content: center;
+  align-items: center;
+  /*border:2px solid blue;*/
+}
+
+.name-link{
+  height:100%;
+  text-decoration:none;
+}
+
+.name{
+  height:100%;
+  align-items:center;
+  text-decoration:none;
+  /*border:2px dotted yellow;*/
+}
+
+.logo{
+  padding:0.2rem 0rem;
+  height: 60%;
+  border:2px solid hsl(10, 100%, 80%);
+}
+
+.name-donovan{
+  margin: 0rem 1rem 0rem 3rem;
+  font-family:Vesper Libre;
+  color:hsl(10, 100%, 80%);
+  /*padding-top:0.6rem;
+  border-top: 2px solid hsl(10, 100%, 80%);
+  border-bottom: 2px solid hsl(10, 100%, 80%);*/
+}
+
+.name-sullivan{
+  margin: 0rem 0rem;
+  font-family:Vesper Libre;
+  color:hsl(10, 100%, 80%);
+  /*padding-top:0.6rem;
+  border-top: 2px solid hsl(10, 100%, 80%);
+  border-bottom: 2px solid hsl(10, 100%, 80%);*/
+}
+
+nav{
+  width:40%;
+  align-items:center;
+  /*border:green 2px dotted;*/
+}
+
+nav ul{
+  margin:0rem;
+  padding:0rem;
+  justify-content:space-around;
+  /*border:2px dotted black;*/
+}
+
+nav li{
+  display: inline-block;
+  border-top: 2px solid hsl(10, 100%, 80%);
+  /*border:2px solid green;*/
+}
+
+nav a{
+  text-decoration: none;
+  font-family:Vesper Libre;
+  color:hsl(10, 100%, 80%);
+}
+
+/*==============
+CONTENT SECTION
+==============*/
+
+#content-section{
+  margin-top: 3rem;
+  /*height:100%;*/
+  background-color:hsl(0, 100%, 96.8%);
+  border: 8px double hsl(0, 100%, 20%);
+  /*border:2px dotted green;*/
+}
+
+.content-container{
+  /*margin-top:1rem;*/
+  height:100%;
+  flex-flow: column;
+  align-items: center;
+  /*border:2px dotted blue;*/
+}
+
+.introduction{
+  /*height:25%;*/
+  border-bottom: 2px solid brown;
+  /*border:3px dashed red;*/
+}
+
+.recent-work{ /*isn't selecting anything right now*/
+  /*height:37.5%;*/
+  border-bottom: 2px solid brown;
+  /*border:2px dotted blue;*/
+}
+
+.check-it-out{
+  margin: 1rem 1rem 1rem 0rem;
+  border-right: 2px solid brown;
+  /*border: 2px dashed black;*/
+}
+
+.check-it-out-aside{
+  flex-flow:column;
+  align-items: center;
+  /*border: 2px dashed red;*/
+}
+
+.johnny-test{
+  height: 33.3%;
+  width: 100%;
+  border-bottom: 2px solid brown;
+  /*border: 3px solid yellow;*/
+}
+
+.johnny-test-bottom{
+  height: 33.3%;
+  width: 100%;
+  /*border: 3px solid yellow;*/
+}
+
+.recent-work2{
+  /*height:37.5%;*/
+  /*border-bottom: 2px solid hsl(0, 100%, 20%);*/
+  /*border:2px dotted blue;*/
+}
+
+p{
+  margin:0rem;
+}
+
+/* ==============
+FOOTER SECTION
+===============*/
+
+footer{
+  height:6rem;
+  width:100%;
+  position:fixed;
+  bottom:0rem;
+  background-color: hsl(1, 50%, 20%);
+  border-top:4px solid hsl(10, 100%, 80%);
+}
+
+.footer-container{
+
+}
