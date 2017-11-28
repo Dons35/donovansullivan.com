@@ -44,6 +44,10 @@ hsl(1, 50%, 60%); easy dark red
   width:40%;
 }
 
+.width50{
+width:50%;
+}
+
 .width60{
   width:60%;
 }
@@ -67,6 +71,8 @@ HEADER SECTION
 header{
   height:6rem;
   z-index:100;
+  position:fixed;
+  top:0rem;
   justify-content: center;
   background-color: hsl(1, 50%, 20%);
   border-bottom: 4px solid hsl(10, 100%, 80%);
@@ -145,10 +151,12 @@ CONTENT SECTION
 ==============*/
 
 #content-section{
-  margin-top: 3rem;
-  /*height:100%;*/
-  background-color:hsl(0, 100%, 96.8%);
-  border: 8px double hsl(0, 100%, 20%);
+  /*position:absolute;
+  top: 9rem;
+  bottom:9rem;*/
+  /*margin-top: 9rem;*/
+  /*background-color:hsl(0, 100%, 96.8%);*/
+  /*border: 8px double hsl(0, 100%, 20%);*/
   /*border:2px dotted green;*/
 }
 
@@ -158,6 +166,10 @@ CONTENT SECTION
   flex-flow: column;
   align-items: center;
   /*border:2px dotted blue;*/
+  margin-top: 9rem;
+  margin-bottom:9rem;
+  background-color:hsl(0, 100%, 96.8%);
+  border: 8px double hsl(0, 100%, 20%);
 }
 
 .introduction{
